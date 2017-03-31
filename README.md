@@ -16,7 +16,7 @@ npm install orionui --save
 
 To use an OrionUI component, you can simply copy it's scss partial and js file to your own project and use as desired. Whilst this works, it also means its difficult to update components as they are now essentially detached from OrionUI.
 
-The recommended way is to import your components using `@import` for SASS and the commonJS `include` pattern for the javascript. This allows OrionUI components to remain encapsulated in `node_modules` which makes them easier to update. See below for details:
+The recommended way is to import a component using `@import` for SASS and commonJS `include` pattern for javascript. This allows the OrionUI component to remain encapsulated in `node_modules` which makes it easier to update as OrionUI is developed. See below for details:
 
 ### SASS Import
 Be sure to bundle your OrionUI component import with the rest of your [OrionCSS](https://github.com/WebDevLuke/OrionCSS) components so you maintain its place in the [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528) hierarchy:
@@ -28,7 +28,7 @@ Be sure to bundle your OrionUI component import with the rest of your [OrionCSS]
 @import "../../node_modules/orionui/c-modal/components.modal";
 ```
 
-If you wish to edit a component, create and include a seperate scss partial in your own project which contains your new styles:
+If you wish to edit a component, create and include a seperate scss partial in your own project which contains your new styles.
 
 ```
 // Components
@@ -45,7 +45,7 @@ In your main.js file, include each components JS file like so:
 require("../../node_modules/orionui/c-modal/c-modal.js");
 ```
 
-Many components fire custom events when performing common functionality (For example, if a modal is opened). These can be used as hooks to edit or attach additional functionality to a component whilst still keeping the core js file include intact. Include your additional functonality as you would the core js file:
+Many components fire custom events when performing common functionality (For example, if a modal is opened). These can be used as hooks to edit or attach new functionality to a component whilst still keeping the core functionality intact. Include your additional functionality as you would the core js file:
 
 ```
 require("../../node_modules/orionui/c-modal/c-modal.js");
@@ -53,7 +53,8 @@ require("/components/c-model.js");
 ```
 
 ## Component Documentation
-- [Modal](README.md)
+- [Modal](https://github.com/WebDevLuke/OrionUI/blob/develop/c-modal/c-modal.md)
+- Hamburger
 
 ## About the Developer
 I'm Luke Harrison, a Sheffield-based Web Designer &amp; Developer from the UK, currently working at [Evolution Funding](https://github.com/EvolutionFunding). Read more about me at [lukeharrison.net](http://www.lukeharrison.net) and/or follow me on twitter at [@WebDevLuke](https://twitter.com/WebDevLuke).

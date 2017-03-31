@@ -21,7 +21,22 @@
 </head>
 <body>
 
-<div class="c-modal">
+<div class="c-modal js-modal-1">
+	<div class="c-modal__inner">
+		<div class="c-modal__background"></div>
+		<div class="c-modal__box">
+			<div class="c-modal__content">
+				<!-- Modal Content Gets Injected Here -->
+			</div>
+			<div class="c-modal__close">
+				<!-- Example Close Icon -->
+				<svg class="c-icon c-icon--close-small"><use xlink:href="#icon-close"/></svg>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="c-modal js-modal-2">
 	<div class="c-modal__inner">
 		<div class="c-modal__background"></div>
 		<div class="c-modal__box">
@@ -41,8 +56,13 @@
 Hello this is a modal
 </div>
 
-<div data-modal="js-content">Click</div>
+<div class="js-content-2 u-hide">
+Hello this is a modal 2
+</div>
 
+<div data-modal="js-modal-1" data-modal-content="js-content" style="margin-bottom:2000px">Click 1</div>
+
+<div data-modal="js-modal-2" data-modal-content="js-content-2">Click 2</div>
 
 
 <script src="test.global-compiled.js"></script>
