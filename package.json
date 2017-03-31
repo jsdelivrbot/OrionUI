@@ -1,0 +1,19 @@
+{
+  "name": "orionui",
+  "version": "0.0.1",
+  "description": "A collection of ITCSS UI components built for use with OrionCSS and OrionJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevLuke/OrionUI.git"
+  },
+  "author": "Luke Harrison",
+  "homepage": "https://github.com/WebDevLuke/OrionUI#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebDevLuke/OrionUI/issues"
+  },
+  "devDependencies": {
+    "orioncss": "^2.3.2",
+    "orionjs": "^1.2.0"
+  }
+}
