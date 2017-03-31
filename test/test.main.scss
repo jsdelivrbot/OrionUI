@@ -1,0 +1,26 @@
+/*
+Orion Framework 
+Author: Luke Harrison
+Web: www.lukeharrison.net
+Github: https://github.com/WebDevLuke/Orion-Framework
+Email: luke@lukeharrison.net
+*/
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// TESTING TEMPLATE
+//--------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+This template is used for development purposes to compile OrionCSS
+*/
+
+// IMPORTS
+//--------------------------------------------------------------------------------------------------------------------------------------
+
+@import "../node_modules/orioncss/01 - settings/*";
+@import "../node_modules/orioncss/02 - tools/*";
+@import "../node_modules/orioncss/03 - generic/*";
+@import "../node_modules/orioncss/04 - elements/*";
+@import "../node_modules/orioncss/05 - objects/*";
+@import "../node_modules/orioncss/06 - components/*";
+@import "../node_modules/orioncss/07 - utilities/*";

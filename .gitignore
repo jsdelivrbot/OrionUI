@@ -1,1 +1,4 @@
 /node_modules
+/test/test.main.css
+/test/global-compiled.js
+/test/reports
