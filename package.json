@@ -1,7 +1,7 @@
 {
   "name": "orionui",
   "version": "0.0.1",
-  "description": "A collection of ITCSS UI components built for use with OrionCSS and OrionJS",
+  "description": "OrionUI is a collection of undecorated UI components for projects using OrionCSS and OrionJS. These components are fully functional but visually barebones, allowing you to add your own styles to meet the branding needs of your project.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WebDevLuke/OrionUI.git"
