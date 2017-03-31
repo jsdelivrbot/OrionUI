@@ -45,15 +45,11 @@ Functionality for c-modal component.
 				// Get behaviour from data-tag
 				var copyElem = this.getAttribute("data-modal");
 				// Grab element to copy content from
-				if(copyElem) {
+				if(copyElem) 
 					// Get element defined in data-tag
 					copyElem = document.querySelector("." + copyElem);
 					modalContent.innerHTML = copyElem.innerHTML;
 					modalContent.classList.remove("o-module", "o-module--medium");
-				}
-				else if(!copyElem) {
-					modalContent.innerHTML = this.innerHTML;
-					modalContent.classList.add("o-module", "o-module--medium");
 				}
 				// If the user has scrolled on a previous modal, put back to top
 				modalContent.scrollTop = 0;

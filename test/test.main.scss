@@ -22,5 +22,8 @@ This template is used for development purposes to compile OrionCSS
 @import "../node_modules/orioncss/03 - generic/*";
 @import "../node_modules/orioncss/04 - elements/*";
 @import "../node_modules/orioncss/05 - objects/*";
-@import "../node_modules/orioncss/06 - components/*";
+
+// Import c-modal
+@import "../c-modal/*";
+
 @import "../node_modules/orioncss/07 - utilities/*";

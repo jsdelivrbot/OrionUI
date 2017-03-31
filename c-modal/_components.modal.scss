@@ -6,6 +6,22 @@
 Component classes for modals
 */
 
+/*
+<div class="c-modal">
+	<div class="c-modal__inner">
+		<div class="c-modal__background"></div>
+		<div class="c-modal__box">
+			<div class="c-modal__content">
+				{# Modal Content Gets Injected Here #}
+			</div>
+			<div class="c-modal__close">
+				<svg class="c-icon c-icon--close-small c-modal__icon"><use xlink:href="#icon-close"/></svg>
+			</div>
+		</div>
+	</div>
+</div>
+*/
+
 
 // BASE & ELEMENTS
 //--------------------------------------------------------------------------------------------------------------------------------------
@@ -34,7 +50,7 @@ Component classes for modals
 
 .c-modal__box {
 	width:calc(100% - 30px);
-	background:$white;
+	background:#ffffff;
 	display:inline-block;
 	position:relative;
 	top:rem(-30px);
@@ -69,8 +85,8 @@ Component classes for modals
 .c-modal__close {
 	width:rem(36px);
 	height:rem(36px);
-	border:rem(3px) solid $dark-blue;
-	background-color:$white;
+	border:rem(3px) solid red;
+	background-color:#ffffff;
 	position:absolute;
 	right:rem(-10px);
 	top:rem(-10px);
