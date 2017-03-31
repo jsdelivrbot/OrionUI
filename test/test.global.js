@@ -9,4 +9,5 @@ Test our JS gulp build task
 // COMPONENTS
 //--------------------------------------------------------------------------------------------------------------------------------------
 
-require("../node_modules/orionjs/actions/data-class.js");
+require("../c-modal/c-modal.js");
+//require("../node_modules/orionjs/actions/data-class.js");
