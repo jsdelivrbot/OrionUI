@@ -14,9 +14,9 @@ If you're using [OrionBP](https://github.com/WebDevLuke/OrionBP), OrionUI will a
 npm install orionui --save
 ```
 
-To use an OrionUI component, you can simply copy it's scss partial and js file to your own project and use as desired. Whilst this works, it also means its difficult to update components as they are now essentially detached from OrionUI.
+To use an OrionUI component, you can simply copy it's scss partial and js file to your own project and use as desired. Though whilst this works, it also means its difficult to update components via NPM as they are now essentially detached from OrionUI.
 
-The recommended way is to import a component from `node_modules` using `@import` for SASS and commonJS `include` pattern for javascript. This allows the OrionUI component to remain encapsulated which makes it easier to update as OrionUI is developed. See below for details:
+The recommended way is to import a component from `node_modules` using `@import` for SASS and commonJS `include` pattern for javascript. This allows the OrionUI component to remain encapsulated which makes it easier to update as OrionUI is developed and improved. See below for examples:
 
 ### SASS Import
 Be sure to group your OrionUI component import with the rest of your [OrionCSS](https://github.com/WebDevLuke/OrionCSS) components so you maintain its place in the [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528) hierarchy:
