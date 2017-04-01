@@ -1,5 +1,5 @@
 ## Modal
-A blank modal component ready to populate with content.
+A blank modal component ready to style and dynamically populate with content.
 
 ### Usage
 Insert the modal HTML after the opening `body` tag and give it a unique classname. In this example the `js-mymodal` class is used, with the `js` prefix alluding to its linked functionality. Replace the `<!--Close Icon-->` comment with your chosen close [X] icon.
@@ -28,9 +28,17 @@ Next, define the content you wish to inject into your modal and give it another 
 </div>
 ```
 
-Finally, set up the trigger. In the On click the example `span` below opens `js-mymodal` and injects it with the content from `js-mymodal-content`. 
+Finally, set up the trigger. On click the example `span` below opens `js-mymodal` and injects it with the content from `js-mymodal-content`. 
 ```
 <span data-modal="js-mymodal" data-modal-content="js-mymodal-content">Modal Trigger</span>
 ```
 
 This is just one example. You could inject different content into the same modal depending on which trigger is clicked, or have multiple modals with different designs altogether. 
+
+### Events
+The following events are available to hook into:
+
+- `open` - fired when a modal is opened
+- `close` - fired when a modal is closed
+- `closeIcon` - fired when a modal is closed via clicking its close [X] icon
+- `closeBackground` - fired when a modal is closed via clicking it's background
